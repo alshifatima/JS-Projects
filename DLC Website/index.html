@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Literacy Course (DLC)</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navigation -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-xl font-bold">DLC</h1>
+      <nav class="space-x-4">
+        <a href="#" class="hover:underline">Home</a>
+        <a href="#tutorials" class="hover:underline">Tutorials</a>
+        <a href="#chat" class="hover:underline">AI Chat</a>
+        <a href="#feedback" class="hover:underline">Feedback</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Home Section -->
+  <section class="text-center p-10 bg-white">
+    <h2 class="text-3xl font-semibold mb-4">Empowering Digital Literacy!</h2>
+    <p class="mb-6">Helping parents and seniors become tech-savvy with ease.</p>
+    <a href="#tutorials" class="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-700">Get Started</a>
+  </section>
+
+  <!-- Tutorials Section -->
+  <section id="tutorials" class="p-10">
+    <h2 class="text-2xl font-bold mb-6 text-center">Tutorials</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="whatsapp.png" alt="WhatsApp" class="w-16 mb-4">
+        <h3 class="font-semibold">Using WhatsApp</h3>
+        <p class="text-sm mb-2">Learn how to send messages, photos and more.</p>
+        <a href="#" class="text-blue-500 underline">Watch Video</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="paytm.png" alt="Paytm" class="w-16 mb-4">
+        <h3 class="font-semibold">Using Paytm</h3>
+        <p class="text-sm mb-2">Make payments and scan QR codes easily.</p>
+        <a href="#" class="text-blue-500 underline">Watch Video</a>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow-md">
+        <img src="maps.png" alt="Google Maps" class="w-16 mb-4">
+        <h3 class="font-semibold">Using Google Maps</h3>
+        <p class="text-sm mb-2">Find routes, locations, and directions.</p>
+        <a href="#" class="text-blue-500 underline">Watch Video</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI Chatbot -->
+  <section id="chat" class="bg-gray-200 p-10 text-center">
+    <h2 class="text-2xl font-bold mb-4">Talk to DigiBuddy</h2>
+    <p class="mb-4">Ask questions like “How to use Google Pay?”</p>
+    <div class="max-w-md mx-auto bg-white p-4 rounded-lg shadow">
+      <p class="text-gray-500">[Chatbot widget integration goes here]</p>
+    </div>
+  </section>
+
+  <!-- Feedback Section -->
+  <section id="feedback" class="p-10">
+    <h2 class="text-2xl font-bold text-center mb-6">Feedback</h2>
+    <form class="max-w-xl mx-auto bg-white p-6 rounded-lg shadow-md">
+      <label class="block mb-2 font-semibold">Name:</label>
+      <input type="text" class="w-full p-2 border rounded mb-4" />
+
+      <label class="block mb-2 font-semibold">Your Feedback:</label>
+      <textarea class="w-full p-2 border rounded mb-4"></textarea>
+
+      <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded">Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>
